@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.IO.Enumeration;
 
 namespace Inheritance
 {
@@ -7,18 +9,133 @@ namespace Inheritance
         static void Main(string[] args)
         {
             // TODO Be sure to follow best practice when creating your classes
+            
+            var eagle = new Bird();
+            Console.WriteLine("An Eagle");
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+            
+            Console.WriteLine(eagle.Legs);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
 
-            // Create a class Animal
-            // give this class 4 members that all Animals have in common
+            Console.WriteLine(eagle.Eyes);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            Console.WriteLine(eagle.Nails);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            Console.WriteLine(eagle.Fur);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            eagle.Fur = true;
+            Console.WriteLine(eagle.Fur);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            eagle.Fly = true;
+            Console.WriteLine(eagle.Fly);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            eagle.Eats = "Reptiles, Other birds, Large Mammels";
+            Console.WriteLine(eagle.Eats);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            eagle.LayEggs = true;
+            Console.WriteLine(eagle.LayEggs);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            var viper = new Reptile();
+            Console.WriteLine("A Viper");
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            Console.WriteLine(viper.Fur);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+            
+            Console.WriteLine(viper.Fly);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+            
+            Console.WriteLine(viper.Nails);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+            
+            Console.WriteLine(viper.Eats);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+            
+            Console.WriteLine(viper.Legs);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            Console.WriteLine(viper.LayEggs);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            viper.CanBePets = true;
+            Console.WriteLine(viper.CanBePets);
+            Console.WriteLine("Experienced personal only!");
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            viper.CanBeEaten = true;
+            Console.WriteLine(viper.CanBeEaten);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            viper.Venomous = true;
+            Console.WriteLine(viper.Venomous);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            viper.Dangerous = true;
+            Console.WriteLine(viper.Dangerous);
+            Console.WriteLine("May not kill you but will hurt if you're bitten");
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine();
+
+            viper.Habitat = "Warm climates";
+            Console.WriteLine(viper.Habitat);
+            Console.WriteLine("hit any button");
+            Console.ReadLine();
+            Console.WriteLine("Thank you for watching!");
 
 
-            // Create a class Bird
-            // give this class 4 members that are specific to Bird
-            // Set this class to inherit from your Animal Class
 
-            // Create a class Reptile
-            // give this class 4 members that are specific to Reptile
-            // Set this class to inherit from your Animal Class
+
+
+
+
+
 
 
 
@@ -34,6 +151,8 @@ namespace Inheritance
              *  
              * Creatively display the class member values 
              */
+
+
         }
     }
 }
