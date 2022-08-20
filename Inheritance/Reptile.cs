@@ -13,7 +13,7 @@ namespace Inheritance
         {
             Legs = 0;
             Eyes = 2;
-            Nails = 20;
+            Nails = 0;
             Fur = false;
             Fly = false;
             LayEggs = true;
